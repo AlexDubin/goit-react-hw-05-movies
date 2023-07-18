@@ -1,0 +1,39 @@
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    z-index: 9999;
+    
+    box-shadow: 1px 1px 14px 4px rgba(255, 107, 8, 0.42);
+}
+
+main {
+    padding-top: 60px;
+}
+
+.navContainer {
+    max-width: 1280px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 0 32px;
+
+
+}
+
+.naviList {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.logo {
+    margin-left: 40px;
+}
+
+.home {
+    margin-left: 253px;
+    margin-right: 26px;
+}

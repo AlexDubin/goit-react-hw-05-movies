@@ -7,9 +7,126 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(14, 14, 14);
+  color: rgb(255, 255, 255);
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  /* height: auto; */
+}
+
+/* Сброс стилей */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+form,
+figure,
+ol,
+ul,
+dl,
+menu {
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Сброс отступов */
+body,
+fieldset,
+img {
+  border: 0;
+}
+
+/* Сброс размеров */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Сброс типографии */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Сброс списков */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Сброс формы */
+button,
+input,
+select,
+textarea {
+  outline: none;
+}
+
+/* Сброс ссылок */
+a {
+  text-decoration: none;
+}
+
+/* Сброс выделения текста */
+::selection {
+  background-color: #b3d4fc;
+  text-shadow: none;
+}
+
+/* Сброс стилей формы */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* Сброс стилей для IE */
+input[type="checkbox"],
+input[type="radio"] {
+  padding: 0;
+}
+
+/* Дополнительные сбросы стилей могут быть добавлены здесь */
+
+h1 {
+      margin-bottom: 28px;
+    margin-top: 20px;
+    text-align: center;
 }

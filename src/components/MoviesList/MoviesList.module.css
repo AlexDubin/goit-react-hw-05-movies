@@ -1,0 +1,37 @@
+.movieList {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
+    margin-bottom: 120px;
+}
+
+.movieLink {
+    
+  position: relative;
+  width: 280px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 1px 1px 14px 4px rgba(1, 1, 1, 0.45);
+}
+
+.movieLink:hover {
+  box-shadow: 1px 1px 7px 2px rgba(255, 107, 8, 0.42);
+}
+
+.posterMovieCard {
+    width: 100%;
+}
+
+.titleMovie {
+    text-align: center;
+  
+  color: rgb(242, 115, 4);
+  
+  margin-top: 0;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
